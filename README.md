@@ -12,7 +12,6 @@
 - Delete Product
 - Remove Product from a category
 - Display most recent 5 products
-...
 
 ## How to do the test
  
