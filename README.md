@@ -1,4 +1,21 @@
 # product-management
+
+## Functionalities
+> * Add new product category
+- Add new product under a category
+- View specific product's description and other details
+- Listing of categories
+- Listing of all the products of a category
+- Display Average number of products among all categories
+- Display the product which has largest description
+- Delete Category
+- Delete Product
+- Remove Product from a category
+- Display most recent 5 products
+...
+
+## How to do the test
+ 
   Create database first to test the functions, category table must be created first
 
 
@@ -19,7 +36,7 @@ create table product (
 	constraint fk_prodcate foreign key (cate_id) references category(id) on delete cascade
 );
 ```
-  Here are some test data
+  Here are some data for test purpose
 ```
 insert into category (category) values ('Beauty');
 insert into category (category) values ('Electronic');
